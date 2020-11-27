@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @inventory_registry.user %>
+</p>
+
+<p>
+  <strong>Inventory:</strong>
+  <%= @inventory_registry.inventory %>
+</p>
+
+<%= link_to 'Edit', edit_inventory_registry_path(@inventory_registry) %> |
+<%= link_to 'Back', inventory_registries_path %>
